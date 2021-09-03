@@ -1,0 +1,10 @@
+Value MAC_ADDRESS ([0-9a-f]{2}\:[0-9a-f]{2}\:[0-9a-f]{2}:[0-9a-f]{2}\:[0-9a-f]{2}\:[0-9a-f]{2})
+Value IP_ADDRESS ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})
+Value NAME ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})
+Value INTERFACE (\S+)
+
+Start
+  ^MAC Address.*Flags.*$$ -> ARPTable
+
+ARPTable
+  ^${MAC_ADDRESS}\s+${IP_ADDRESS}\s+${NAME}\s+${INTERFACE}\s+ -> Record
