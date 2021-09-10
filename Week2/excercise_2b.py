@@ -5,8 +5,8 @@ import time
 
 device = {
     "host": "nxos2.lasthop.io",
-    "username": "pyclass",
-    "password": "88newclass",
+    "username": nul,
+    "password": null,
     "device_type": "cisco_nxos",
     "global_delay_factor" : 8,
 }

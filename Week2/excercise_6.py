@@ -7,7 +7,7 @@ password = getpass()
 
 device = {
     "host": "cisco4.lasthop.io",
-    "username": "pyclass",
+    "username": null,
     "password": password,
     "secret": password,
     "device_type": "cisco_ios",

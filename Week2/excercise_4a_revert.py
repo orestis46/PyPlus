@@ -5,8 +5,8 @@ from netmiko import ConnectHandler
 
 device = {
     "host": "cisco3.lasthop.io",
-    "username": "pyclass",
-    "password": "88newclass",
+    "username": null,
+    "password": null,
     "device_type": "cisco_ios",
 }
 

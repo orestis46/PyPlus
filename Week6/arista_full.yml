@@ -2,7 +2,7 @@
 arista1:
   transport: https
   host: arista1.lasthop.io
-  username: pyclass
+  username: null
   port: 443
   data: 
     intf_name: Loopback99
@@ -11,7 +11,7 @@ arista1:
 arista2:
   transport: https
   host: arista2.lasthop.io
-  username: pyclass
+  username: null
   port: 443
   data:
     intf_name: Loopback99    
@@ -20,7 +20,7 @@ arista2:
 arista3:
   transport: https
   host: arista3.lasthop.io
-  username: pyclass
+  username: null
   port: 443
   data:
     intf_name: Loopback99    
@@ -29,7 +29,7 @@ arista3:
 arista4:
   transport: https
   host: arista4.lasthop.io
-  username: pyclass
+  username: null
   port: 443
   data:
     intf_name: Loopback99    

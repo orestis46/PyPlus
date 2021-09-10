@@ -5,8 +5,8 @@ from datetime import datetime
 
 device = {
     "host": "cisco3.lasthop.io",
-    "username": "pyclass",
-    "password": "88newclass",
+    "username": null,
+    "password": "null,
     "device_type": "cisco_ios",
     "fast_cli" : "True",
 }

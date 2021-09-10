@@ -1,45 +1,45 @@
 - arista1:
     device name: arista1
     hostname: arista1.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   arista2:
     device name: arista2
     hostname: arista2.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   arista3:
     device name: arista3
     hostname: arista3.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   arista4:
     device name: arista4
     hostname: arista4.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   cisco3:
     device name: cisco3
     hostname: cisco3.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   cisco4:
     device name: cisco4
     hostname: cisco4.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   nxos1:
     device name: nxos1
     hostname: nxos1.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   nxos2:
     device name: nxos2
     hostname: nxos2.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
   srx2:
     device name: srx2
     hostname: srx2.lasthop.io
-    password: 88newclass
-    username: pyclass
+    password: null
+    username: null
