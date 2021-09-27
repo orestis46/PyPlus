@@ -3,7 +3,7 @@ from netmiko import ConnectHandler
 
 def ssh_command(device, command):      
    conn = ConnectHandler(**device)
-   result = conn.send_command("show version")
+   result = conn.send_command(command)
    print("="*40)
    print(result)
    print("="*40)
